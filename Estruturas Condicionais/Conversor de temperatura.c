@@ -8,21 +8,20 @@ int main () {
 	
 	switch(resp) {
 		case 1: 
-    		printf("Digite o valor em Celsius: ");
-    		scanf("%f", &celsius);
-    		valorEmFH = celsius * 1.8 + 32;
-    		printf("O valor de Celsius %.2f, para Fahrenheit é %.2f ºF", celsius, valorEmFH);
-    		break;
+    		    printf("Digite o valor em Celsius: ");
+    		    scanf("%f", &celsius);
+    		    valorEmFH = celsius * 1.8 + 32;
+    		    printf("O valor de Celsius %.2f, para Fahrenheit é %.2f ºF", celsius, valorEmFH);
+    		    break;
 		case 2: 
-    		printf("Digite o valor em Fahrenheit: ");
-    		scanf("%f", &Fahren);
-    		ValorEmCS = 5.0 / 9 * (Fahren - 32);
-    		printf("O valor de fahrenheit %.2f para celsius é %.2f ºC", Fahren, ValorEmCS);
-    		break;
+    		    printf("Digite o valor em Fahrenheit: ");
+    		    scanf("%f", &Fahren);
+    		    ValorEmCS = 5.0 / 9 * (Fahren - 32);
+    		    printf("O valor de fahrenheit %.2f para celsius é %.2f ºC", Fahren, ValorEmCS);
+    		    break;
 		case 3:	
-    		printf("Digite um valor válido ");		
-    		break;	
-		
+    		    printf("Digite um valor válido ");		
+    		    break;	
 		default: 
 		    printf("Opção inválida")
 	}
